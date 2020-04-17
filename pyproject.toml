@@ -3,7 +3,7 @@ name = "Ivanich-spb_brain_games"
 packages = [
 	{ include = "brain_games" },
 	]
-version = "0.1.0"
+version = "0.1.1"
 description = ""
 authors = ["Ivanich <zvoox.ru@gmail.com>"]
 
@@ -16,6 +16,7 @@ prompt = "^0.4.1"
 
 
 [tool.poetry.dev-dependencies]
+flake8 = "^3.7.9"
 
 [build-system]
 requires = ["poetry>=0.12"]
