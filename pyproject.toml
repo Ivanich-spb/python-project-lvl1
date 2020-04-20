@@ -3,7 +3,7 @@ name = "Ivanich-spb_brain_games"
 packages = [
 	{ include = "brain_games" },
 	]
-version = "0.1.2222222222222222222222"
+version = "0.1.2"
 description = ""
 authors = ["Ivanich <zvoox.ru@gmail.com>"]
 
