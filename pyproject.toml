@@ -3,12 +3,13 @@ name = "Ivanich-spb_brain_games"
 packages = [
 	{ include = "brain_games" },
 	]
-version = "0.1.1"
+version = "0.1.2222222222222222222222"
 description = ""
 authors = ["Ivanich <zvoox.ru@gmail.com>"]
 
 [tool.poetry.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
+brain-even = "brain_games.scripts.brain_even:main"
 
 [tool.poetry.dependencies]
 python = "^3.6"
