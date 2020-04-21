@@ -13,9 +13,9 @@ def is_prime(number):
 
 
 def game():
-    random_num = randint(1, 99)
-    answer = 'yes' if is_prime(random_num) else 'no'
-    return random_num, answer
+    random_number = randint(0, 100)
+    right_answer = 'yes' if is_prime(random_number) else 'no'
+    return random_number, right_answer
 
 
 GAME_RULES = 'Answer "yes" if given number is PRIME. Otherwise answer "no".'
