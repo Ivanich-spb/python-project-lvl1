@@ -1,22 +1,25 @@
-from random import randint
 import prompt
+from ansi.colour import fg
+from brain_games.cli import welcome, welcome_user, congratulate_user, try_again
 
 
-def is_even(number):
-    return number % 2 == 0
+def start_game(game_name, number_of_rounds=3):
+    welcome()
+    print(game_name.GAME_RULES)
+    print()
+    name = welcome_user()
 
-
-def game_even():
     count = 0
-    while count < 3:
-        random_number = randint(0, 100)
-        print(f'Question: {random_number}')
+    while count < number_of_rounds:
+        value, right_answer = game_name.game()
+        print(f'Question: {value}')
         answer = prompt.string('Your answer: ')
-        right_answer = 'yes' if is_even(random_number) else 'no'
         if answer == right_answer:
-            print('Correct!')
+            print(fg.green('Correct!'))
             count += 1
         else:
-            print(f"'{answer}' is wrong answer ;(. Correct answer was '{right_answer}'.")# noqa E501
-            return 'wrong'
-    return 'correct'
+            print(f"'{fg.red(answer)}' is wrong answer ;(. Correct answer was '{fg.green(right_answer)}'.")# noqa E501
+            try_again(name)
+            break
+    else:
+        congratulate_user(name)

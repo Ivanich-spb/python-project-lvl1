@@ -1,4 +1,12 @@
 [[package]]
+category = "main"
+description = "ANSI cursor movement and graphics"
+name = "ansi"
+optional = false
+python-versions = "*"
+version = "0.1.5"
+
+[[package]]
 category = "dev"
 description = "Discover and load entry points from installed packages."
 name = "entrypoints"
@@ -53,10 +61,13 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
 version = "2.1.1"
 
 [metadata]
-content-hash = "50271dc840390e80b186553a6a7a5fd8ce69bad44bcdbbc125babc3d40fba20c"
+content-hash = "d735a06e3a80153389b589256fc9a3e4dd2c39543bb2b67612fb1b6bfd5364c5"
 python-versions = "^3.6"
 
 [metadata.files]
+ansi = [
+    {file = "ansi-0.1.5.tar.gz", hash = "sha256:0e5ca4681479e3159c89dfdfa90ed7794437ffaf956afba9b72697d297b6530b"},
+]
 entrypoints = [
     {file = "entrypoints-0.3-py2.py3-none-any.whl", hash = "sha256:589f874b313739ad35be6e0cd7efde2a4e9b6fea91edcc34e58ecbb8dbe56d19"},
     {file = "entrypoints-0.3.tar.gz", hash = "sha256:c70dd71abe5a8c85e55e12c19bd91ccfeec11a6e99044204511f9ed547d48451"},
