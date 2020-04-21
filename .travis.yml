@@ -9,4 +9,4 @@ install:
   - make install
 
 script:
-  - make make_lint
+  - make lint
