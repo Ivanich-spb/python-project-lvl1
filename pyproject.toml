@@ -3,7 +3,7 @@ name = "Ivanich-spb_brain_games"
 packages = [
 	{ include = "brain_games" },
 	]
-version = "0.2.0"
+version = "0.5.0"
 description = ""
 authors = ["Ivanich <zvoox.ru@gmail.com>"]
 
@@ -11,6 +11,9 @@ authors = ["Ivanich <zvoox.ru@gmail.com>"]
 brain-games = "brain_games.scripts.brain_games:main"
 brain-even = "brain_games.scripts.brain_even:main"
 brain-calc = "brain_games.scripts.brain_calc:main"
+brain-gcd = "brain_games.scripts.brain_gcd:main"
+brain-progression = "brain_games.scripts.brain_progression:main"
+brain-prime = "brain_games.scripts.brain_prime:main"
 
 [tool.poetry.dependencies]
 python = "^3.6"

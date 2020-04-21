@@ -18,7 +18,7 @@ def start_game(game_name, number_of_rounds=3):
             print(fg.green('Correct!'))
             count += 1
         else:
-            print(f"'{fg.red(answer)}' is wrong answer ;(. Correct answer was '{fg.green(right_answer)}'.")# noqa E501
+            print(f"'{fg.bold(fg.red(answer))}' is wrong answer ;(. Correct answer was '{fg.bold(fg.green(right_answer))}'.")# noqa E501
             try_again(name)
             break
     else:

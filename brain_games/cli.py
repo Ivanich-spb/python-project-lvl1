@@ -4,7 +4,7 @@ from ansi.colour import fg
 
 
 def welcome():
-    print(fg.bold('Welcome to the Brain Games!'))
+    print(fg.red(fg.bold('Welcome to the Brain Games!')))
 
 
 def welcome_user():
@@ -15,7 +15,7 @@ def welcome_user():
 
 
 def congratulate_user(name):
-    print(fg.green(f'Congratulations, {fg.bold(name)}!'))
+    print(fg.red(fg.bold(f'Congratulations, {(name)}!')))
 
 
 def try_again(name):
