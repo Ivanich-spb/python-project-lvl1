@@ -1,6 +1,6 @@
 # BRAIN GAMES
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
+[![Maintainability](https://api.codeclimate.com/v1/badges/b6993bb5a45e2df817be/maintainability)](https://codeclimate.com/github/Ivanich-spb/python-project-lvl1/maintainability)
 [![Build Status](https://travis-ci.com/Ivanich-spb/python-project-lvl1.svg?branch=master)](https://travis-ci.com/Ivanich-spb/python-project-lvl1)
 
 ### Description:
