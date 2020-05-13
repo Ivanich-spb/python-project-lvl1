@@ -3,7 +3,7 @@ name = "Ivanich-spb_brain_games"
 packages = [
 	{ include = "brain_games" },
 	]
-version = "0.5.1"
+version = "0.5.2"
 description = "Package consists of 5 CLI games"
 authors = ["Ivanich <zvoox.ru@gmail.com>"]
 repository = "https://github.com/Ivanich-spb/python-project-lvl1"

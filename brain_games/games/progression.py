@@ -1,7 +1,9 @@
 from random import randint
 
+RULES = 'What number is missing in the progression?'
 
-def game():
+
+def play_round():
     first_element = randint(0, 10)
     hidden_element = randint(0, 9)
     progression_step = randint(1, 10)
@@ -15,6 +17,3 @@ def game():
     right_answer = progression[hidden_element]
     progression[hidden_element] = '..'
     return ' '.join(progression), right_answer
-
-
-GAME_RULES = 'What number is missing in the progression?'
